@@ -86,10 +86,13 @@ As consultas utilizam:
 
 O diagrama entidade-relacionamento foi desenvolvido no MySQL Workbench e representa visualmente todas as entidades e relacionamentos do projeto.
 
+Abaixo, o diagrama que representa a modelagem de dados do sistema de E-commerce:
+
+![Diagrama EER](./Diagrama_ER_Ecommerce_Refinado.png)
 ---
 
 ## 🚀 Como Executar
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/ecommerce-database-refinado.git
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/vaniabordin/ecommerce-database-refinado.git](https://github.com/vaniabordin/ecommerce-database-refinado.git)
