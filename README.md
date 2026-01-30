@@ -92,7 +92,9 @@ Abaixo, o diagrama que representa a modelagem de dados do sistema de E-commerce:
 ---
 
 ## 🚀 Como Executar
-
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/vaniabordin/ecommerce-database-refinado.git](https://github.com/vaniabordin/ecommerce-database-refinado.git)
+   
+2. **Execute o Script:**
+   - O arquivo `esquema_database.sql` contém todos os comandos necessários para criar as tabelas e inserir os dados iniciais.
