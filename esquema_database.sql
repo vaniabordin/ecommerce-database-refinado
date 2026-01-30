@@ -6,7 +6,7 @@ idClient INT AUTO_INCREMENT PRIMARY KEY,
 Fname varchar(20),
 Minit char(3),
 Lname varchar(30),
-Addresss varchar(255)
+Address varchar(255)
 );
 
 CREATE TABLE client_pf (
@@ -22,7 +22,7 @@ CREATE TABLE client_pf (
 
 CREATE TABLE client_pj (
     idClient INT,
-    CNPJ CHAR(14) NOT NULL,
+    CNPJ CHAR(15) NOT NULL,
     SocialName VARCHAR(255) NOT NULL,
     CONSTRAINT pk_client_pj PRIMARY KEY (idClient),
     CONSTRAINT uq_client_pj_cnpj UNIQUE (CNPJ),
